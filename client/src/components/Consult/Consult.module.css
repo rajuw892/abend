@@ -1,0 +1,71 @@
+.para{
+    color: #F5530B;
+    font-family: calibri;
+    font-weight: 400;
+    font-style: normal;
+}
+.heading{
+    color:#484848;
+    font-family: Montserrat Alternates;
+    font-size: 2rem;
+    font-weight:700;
+    font-style: normal;
+}
+
+.consults
+{
+    padding-left: 40px;
+}
+
+.ConsultFinal{
+    margin-bottom: -150px;
+}
+
+.cardSection{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding-right: 40px;
+    margin: 40px 0px;
+}
+
+.innerup{
+    width: 530px;
+    height: 311px;
+    background-color: #FFECE4;
+}
+
+.up{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    position: relative;
+    top: -250px;
+    z-index: -2;
+}
+
+@media(max-width:1200px){
+    .innerup{
+        width: 300px;
+        height: 220px;
+    }
+    .up{
+        top: -200px;
+    }
+}
+
+@media(max-width:750px)
+{
+    .cardSection
+    {
+        flex-direction:column;
+    }
+    .up{
+        display: none;
+        visibility: collapse;
+    }
+
+    .ConsultFinal{
+        margin-bottom: 80px;
+    }
+}

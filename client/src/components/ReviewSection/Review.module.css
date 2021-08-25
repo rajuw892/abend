@@ -1,0 +1,22 @@
+.review{
+    width: 90%;
+    margin: 40px auto;
+    color: darkslategrey;
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    font-style: normal;
+    padding: 10px;
+    box-shadow: -2px 2px 15px -7px rgb(133, 133, 133);
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+}
+
+
+.top{
+    display: flex;
+    align-items: center;
+}
+
+.top> h3{
+  margin-left: 20px;
+}

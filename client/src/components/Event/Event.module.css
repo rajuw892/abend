@@ -1,0 +1,61 @@
+.heading{
+    color:#484848;
+    font-family: Montserrat Alternates;
+    font-size: 2rem;
+    font-weight:700;
+    font-style: normal;
+    margin-left:40px;
+}
+
+.para{
+    color: #F5530B;
+    font-family: calibri;
+    font-weight: 400;
+    font-style: normal;
+    margin-left:40px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    margin-left:40px;
+    cursor: pointer;
+}
+
+.active{
+    margin: 0px 20px !important;
+    border-bottom: 3px solid #F5530B;
+    font-weight: 700;
+    font-style: normal;
+    color: #464646;
+    font-family: Montserrat Alternates;
+    padding: 10px;
+}
+
+.unactive{
+    margin: 0px 20px !important;
+    font-weight: 700;
+    font-style: normal;
+    color: #464646;
+    font-family: Montserrat Alternates;
+    padding: 10px;
+}
+
+.main{
+    padding: 80px 0px;
+}
+
+/* css for Ongoing section */
+
+
+/* css for History Section */
+
+
+/*common*/
+.cardContainer
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 20px 0px;
+}

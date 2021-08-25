@@ -1,0 +1,54 @@
+.Layout{
+   width: 400px;
+   box-shadow: 4px 4px 25px  rgb(212, 211, 211);
+   border-radius:10px;
+   padding-bottom: 5px;
+   z-index:5;
+}
+
+.image{
+   width: 400px;
+}
+
+.heading{
+   font-family: calibri;
+   font-weight: 700;
+   font-style: normal;
+   color: #2D2D2D;
+
+   margin: 5px 10px;
+}
+
+.dateandtime{
+    font-family: calibri;
+   font-weight: 700;
+   font-style: normal;
+   color: #7D7D7D;
+   display: flex;
+   align-items: center;
+   margin: 5px 10px;
+}
+
+.para{
+    color: #262626;
+    font-family: calibri;
+   font-weight: 400;
+   font-style: normal;
+   margin: 20px 10px;
+}
+
+.anchortag{
+   color: #F5530B;
+   text-decoration: none;
+}
+
+@media (max-width: 1250px)
+{
+   .image{
+       width: 320px;
+   }
+
+   .Layout{
+       width: 320px;
+   }
+}

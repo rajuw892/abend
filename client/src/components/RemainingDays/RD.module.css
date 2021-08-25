@@ -1,0 +1,23 @@
+.remaining{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 40px auto;
+}
+
+.heading{
+    color: #F5530B;
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.headingdays{
+    color: green;
+    font-family: Montserrat Alternates;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    margin-left: 20px;
+}

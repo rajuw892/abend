@@ -1,0 +1,15 @@
+.switchSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+  height: fit-content !important;
+  padding: 0px !important;
+}
+
+.switchSection > p {
+  width: 50%;
+  text-align: center;
+  padding: 20px 0px;
+  margin: 0px !important;
+}

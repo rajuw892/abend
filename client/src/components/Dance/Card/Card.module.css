@@ -1,0 +1,19 @@
+.up{
+    
+    margin: 0px 20px;
+    margin-top:-130px;
+    color: white;
+    font-family:Montserrat Alternates ;
+}
+
+.inrow{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    justify-content:space-between;
+}
+
+.imagedesing{
+     width: 300px;
+     height: auto;
+}

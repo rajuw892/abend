@@ -1,0 +1,53 @@
+.title{
+   font-family: calibri;
+   font-weight: 700;
+   font-style: normal;
+   color: #262626;
+   margin-bottom:5px;
+}
+
+.para{
+   font-family: Montserrat Alternates;
+   font-weight: 400;
+   font-style: normal;
+   color: gray;
+   line-height:1.5em;
+}
+
+.more{
+   color: #F5530B;
+   border-bottom: 0.2px solid #F5530B;
+   cursor: pointer;
+}
+
+
+.titleIcon{
+   display: flex;
+   justify-content:space-between;
+   align-items:center;
+}
+
+.right{
+    color: #262626;
+    width: 60%;
+}
+
+.layout{
+   padding: 20px;
+   display: flex;
+   align-items:center;
+   justify-content:space-evenly;
+   margin: 30px 20px;
+}
+
+@media(max-width:600px){
+    .layout{
+        display: block;
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .right{
+        width: 100%;
+    }
+}

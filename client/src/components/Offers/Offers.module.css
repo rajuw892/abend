@@ -1,0 +1,33 @@
+.offers{
+    margin-top:60px;
+}
+
+.heading{
+
+    
+     margin-left:40px;
+    font-family: Montserrat Alternates;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 38px; 
+   line-height: 46px;
+
+   color: #464646;
+}
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.image{
+   width: 470px;
+   height: auto;
+}
+
+@media(max-width: 500px)
+{
+    .image{
+        width: 320px;
+    }
+}

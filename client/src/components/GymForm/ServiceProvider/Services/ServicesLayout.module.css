@@ -1,0 +1,52 @@
+.services{
+  width: fit-content;
+  border-radius: 10px;
+  color: darkslategrey;
+  font-family: Montserrat Alternates;
+  font-weight: 700;
+  font-style: normal;
+  margin: 10px;
+  background-color: #EBEBEB;
+  display: inline-block;
+}
+
+.services > div{
+  display: flex;
+  align-items:center;
+}
+
+.para{
+  padding: 10px !important;
+  color: #fff;
+  background-color: green;
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.paraRed{
+  padding: 10px !important;
+  color: #fff;
+  background-color: red;
+  border-radius: 50%;
+  margin-right: 10px;
+  
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.services:hover{
+  background-color: #d8d7d7;
+}
+
+
+.heading{
+     margin: 20px;
+}

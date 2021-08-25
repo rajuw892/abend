@@ -1,0 +1,61 @@
+.main{
+    display: flex;
+    padding: 20px;
+    justify-content:space-between;
+    height: fit-content;
+    background-color: #f5510b31;
+    align-items: center;
+}
+.left{
+    height: 100% !important;
+    flex: 0.4;
+   display: flex;
+   align-items:center;
+   flex-direction:column;
+   color: darkslategrey;
+   font-family: Montserrat Alternates;
+   font-weight: 700;
+   font-style: normal;
+}
+.right{
+    flex: 0.5;
+   height: 100%;
+   color: darkslategrey;
+   font-family: Montserrat Alternates;
+   font-weight: 700;
+   font-style: normal;
+}
+
+.right > div {
+    margin: 30px 0px;
+}
+
+.right > div > h1{
+    border-bottom: 2px solid #F5530B;
+    display: inline;
+}
+
+.right > p{
+    display: flex;
+    align-items: center;
+}
+
+.avatar{
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.button{
+     padding: 10px 20px !important;
+     background-color: #F5530B !important;
+     color: #fff !important;
+     border-radius: 5px !important;
+     margin: 20px 0px !important;
+     width: 280px !important;
+}
+
+@media(max-width: 900px){
+    .main{
+        flex-direction: column;
+    }
+}

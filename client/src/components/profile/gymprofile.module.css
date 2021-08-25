@@ -1,0 +1,177 @@
+.main{
+    padding: 20px;
+    border: 1px solid green;
+}
+
+.innerDiv >h2, .innerDiv >p{
+    color: darkslategrey;
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    font-style: normal;
+    margin: 20px auto;
+}
+
+.service{
+    width: 90%;
+    margin: 40px auto;
+}
+
+.service > h2{
+    color: darkslategrey !important;
+    font-family: Montserrat Alternates !important;
+    font-weight: 700;
+    font-style: normal;
+    border-bottom: 2px solid #F5530B;
+    display: inline;
+}
+
+.innerDiv > p> span{
+    color: #F5530B;
+    font-size: 30px;
+}
+
+.icon{
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.addimage{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    overflow-x: scroll;
+    margin: 40px auto !important;
+}
+
+.addimage::-webkit-scrollbar{
+    display:none;
+}
+
+.innerDiv >h2
+{
+    border-bottom: 2px solid #F5530B;
+    display: inline;
+}
+
+.innerDiv{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.side{
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   margin-bottom: 100px;
+}
+
+.left{
+   width: fit-content;
+}
+
+.avatar{
+    width: 200px !important;
+    height: 200px !important;
+}
+
+.right{
+    width: fit-content;
+    margin-left: 30px;
+}
+
+.right > div{
+    display: flex;
+    align-items: center;
+}
+.right > h2{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 400px;
+    color: darkslategrey;
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    font-style: normal;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.location{
+    color: #F5530B !important;
+}
+
+.location > div{
+    display: flex;
+    align-items: center;
+}
+
+.split{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   color: darkslategrey;
+   font-family: Montserrat Alternates;
+   font-weight: 700;
+   font-style: normal;
+   margin: 40px auto;
+   width: 100%;
+}
+
+.leftHeading{
+    width: fit-content;
+ }
+ 
+ .rightHeading{
+    width: fit-content;
+ }
+
+.buttonsSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 40px auto;
+}
+
+.button{
+    padding: 10px 20px !important;
+    width: 300px !important;
+    background-color: #F5530B !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+}
+
+@media(max-width: 750px){
+    .side, .split, .buttonsSection{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 90%;
+        margin: auto;
+    }
+
+    .button{
+        margin-bottom: 20px !important;
+    }
+
+    .right{margin-left: 0px;}
+
+    .split{
+        width: 100%;
+    }
+
+    .leftHeading{
+        display: block;
+        width:100%;
+     }
+     
+     .rightHeading{
+        display: none;
+     }
+     .service, .addimage, .innerDiv, .buttonsSection{
+         width: 100%;
+     }
+
+     .right>h2{
+         width: 300px;
+     }
+}

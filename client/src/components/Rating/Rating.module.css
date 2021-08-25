@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    align-items: center;
+    color: #F5530B;
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    font-style: normal;
+    width: 90%;
+    margin: 80px auto !important;
+}
+
+
+.left{
+    flex: 0.4;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.outside{
+    display: flex;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.con{
+    width: fit-content;
+}
+
+.active{
+    color: rgb(226, 188, 92);
+}
+
+.unactive{
+    color: grey;
+}
+
+
+.input{
+    width: 90% !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    color: darkslategrey;
+    font-family: Montserrat Alternates;
+    font-weight: 700;
+    font-style: normal;
+    overflow: auto;
+    display: block !important;
+}
+
+.button{
+    padding: 10px 20px !important;
+    background-color: #F5530B !important;
+    color: #fff !important;
+    font-family: Montserrat Alternates !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    outline: none !important;
+    margin: 40px auto !important;
+    width: 90% !important;
+    margin-bottom: 0px !important;
+}
+
+.right{
+    flex: 0.6;
+}
+
+@media(max-width: 850px)
+{
+    .container{
+        display: block;
+    }
+}

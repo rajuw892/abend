@@ -1,0 +1,19 @@
+
+
+.heading{
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    color: #464646;
+     padding-bottom: 20px;
+     padding-left: 40px; 
+}
+
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 20px 0px;
+}

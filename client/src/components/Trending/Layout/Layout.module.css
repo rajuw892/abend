@@ -1,0 +1,49 @@
+.layout{
+    width: 400px;
+    height: fit-content;
+    box-shadow: 4px 4px 25px rgb(182, 181, 181);
+}
+
+.image{
+    width: 400px;
+}
+
+
+.details{
+   font-weight:700;
+   font-style: normal !important;
+   font-family:Calibri;
+    padding:0px 20px;
+    width: 400px;
+    color: black;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    color: #484848;
+}
+
+.para{
+    color: #7D7D7D;
+}
+
+
+@media (max-width:1250px)
+{
+    .image{
+        width: 300px;
+    }
+
+    .details{
+        width: 300px;
+    }
+
+    .layout{
+        width: 300px;
+    }
+}
+
+
+
+

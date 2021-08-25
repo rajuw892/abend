@@ -1,0 +1,39 @@
+.para{
+    color: #F5530B;
+    font-family: calibri;
+    font-weight: 400;
+    font-style: normal;
+}
+.heading{
+    color:#484848;
+    font-family: Montserrat Alternates;
+    font-size: 2rem;
+    font-weight:700;
+    font-style: normal;
+}
+
+.main{
+    padding-left: 40px;
+    margin: 80px 0px;
+}
+
+.arrow
+{
+    color: #F5530B;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.scroll
+{
+    width: 100%;
+    overflow-x:scroll;
+white-space: nowrap;
+margin-top: 20px;
+}

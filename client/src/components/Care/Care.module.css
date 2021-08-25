@@ -1,0 +1,87 @@
+.main
+{
+    height: fit-content;
+    width: fit-content;
+    padding: 20px 40px;
+}
+
+
+.up
+{
+    background-color:  #EBEBEB;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: -350px;
+    z-index: -2;
+}
+
+.heading{
+    color: #484848;
+    font-family: Montserrat Alternates;
+    font-size: 38px;
+    font-weight:700;
+    font-style: normal;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+.para{
+    color: #F5530B;
+    font-family: calibri;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 40px;
+}
+
+.CareSection
+{
+    margin-bottom: -200px;
+}
+
+.flexdiv
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.buttondesign
+{
+    width: 80px;
+    height: 80px;
+    color: #F5530B;
+}
+
+
+
+@media (max-width: 1100px)
+{
+    .up
+    {
+        height:300px;
+        top: -300px;
+    }
+    .CareSection
+{
+    margin-bottom: -100px;
+}
+}
+@media(max-width: 1000px)
+{
+    .up{
+        height: 250px;
+        top: -240px;
+    }
+}
+
+@media (max-width:680px)
+{
+    .up{
+        height:200px;
+        top: -200px;
+    }
+
+    .heading , .para
+    {
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,69 @@
+.container{
+   display: flexbox;
+   padding: 40px;
+   margin-top: 40px; 
+}
+
+.banner{
+
+    width: 100;
+    height: 500px;
+     margin: auto;
+    
+    background: #F5530B;
+    border-radius: 6px;
+    
+}
+.heading{
+   
+
+font-family: Beautiful People Personal Use;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 203.57%;
+
+
+text-align: center;
+letter-spacing: 0.16em;
+
+color: #FFFFFF;
+padding-top: 195px;
+
+}
+.heading2{
+
+    
+    
+    font-family: Beautiful People Personal Use;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 203.57%;
+    /* or 51px */
+    
+    text-align: center;
+    letter-spacing: 0.16em;
+    
+    color: #FFFFFF;
+     padding-top: 100px;
+    
+
+}
+
+@media (max-width : 650px) {
+    
+  .banner{
+      height: 300px;
+  }
+   .heading{
+       padding-top: 110px;
+       font-size: 20px;
+       line-height: 203.57%;
+   }
+   .heading2{
+       padding-top: 40px;
+       font-size: 20px;
+       line-height: 203.57%;
+   }
+}
